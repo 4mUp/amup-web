@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt | AmUp, s.r.o.</title>
+<meta name="description" content="Kontakt na AmUp, s.r.o.: telefon 774 648 682, e-mail navratil@amup.cz. Poptávkový formulář.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="logo" href="index.html"><svg class="ic accent" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg><span>AmUp</span></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Otevřít menu">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+</button>
+<nav id="menu" class="nav" aria-label="Hlavní menu"><a href="index.html#sluzby">Služby</a><a href="realizace.html">Realizace</a><a href="kontakt.html" aria-current="page">Kontakt</a><a class="btn btn-accent" href="tel:+420774648682">774 648 682</a></nav>
+</div>
+</header>
+<main>
+<section class="page-hero">
+<div class="wrap"><h1>Kontakt</h1><p class="lead">Zavolejte nebo napište. Ozveme se a domluvíme obhlídku nebo rovnou pošleme nabídku.</p></div>
+</section>
+<section class="section">
+<div class="wrap contact-grid">
+<div class="contact-list">
+<a href="tel:+420774648682"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>774 648 682</span></a>
+<a href="mailto:navratil@amup.cz"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><span>navratil@amup.cz</span></a>
+<p><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>AmUp, s.r.o.<br>IČO: 17439311<br>DIČ: CZ17439311</span></p>
+</div>
+<form class="form" action="https://formsubmit.co/navratil@amup.cz" method="POST">
+<input type="hidden" name="_subject" value="Nová poptávka z webu amup.cz">
+<input type="hidden" name="_next" value="https://amup.cz/dekujeme.html">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="form-row">
+<label>Jméno<input type="text" name="jmeno" required></label>
+<label>Telefon<input type="tel" name="telefon" required></label>
+</div>
+<label>E-mail<input type="email" name="email"></label>
+<label>O co máte zájem<select name="sluzba" id="sluzba"><option value="elektroinstalace">Elektroinstalace</option><option value="rozvadece">Rozvaděče</option><option value="pripojky">Přípojky</option><option value="rekonstrukce">Rekonstrukce</option><option value="novostavby">Novostavby</option><option value="bytove-domy-garaze">Bytové domy a hromadné garáže</option><option value="slaboproud">Slaboproud</option><option value="kamerove-systemy">Kamerové systémy</option><option value="zabezpecovaci-systemy">Zabezpečovací systémy</option><option value="opravy-havarie">Opravy a havárie</option><option value="jine">Jiné</option></select></label>
+<label>Zpráva<textarea name="zprava" rows="5" placeholder="Co potřebujete, kde a kdy"></textarea></label>
+<label class="consent"><input type="checkbox" required><span>Souhlasím se <a href="ochrana-osobnich-udaju.html">zpracováním osobních údajů</a> za účelem vyřízení poptávky.</span></label>
+<button class="btn btn-dark btn-lg" type="submit">Odeslat poptávku</button>
+</form>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div>
+<a class="logo" href="index.html"><svg class="ic accent" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg><span>AmUp</span></a>
+<p>AmUp, s.r.o.<br>IČO: 17439311<br>DIČ: CZ17439311</p>
+</div>
+<div>
+<h2>Služby</h2>
+<ul><li><a href="elektroinstalace.html">Elektroinstalace</a></li><li><a href="rozvadece.html">Rozvaděče</a></li><li><a href="pripojky.html">Přípojky</a></li><li><a href="rekonstrukce.html">Rekonstrukce</a></li><li><a href="novostavby.html">Novostavby</a></li><li><a href="bytove-domy-garaze.html">Bytové domy a hromadné garáže</a></li><li><a href="slaboproud.html">Slaboproud</a></li><li><a href="kamerove-systemy.html">Kamerové systémy</a></li><li><a href="zabezpecovaci-systemy.html">Zabezpečovací systémy</a></li><li><a href="opravy-havarie.html">Opravy a havárie</a></li></ul>
+</div>
+<div>
+<h2>Kontakt</h2>
+<p><a href="tel:+420774648682">774 648 682</a><br><a href="mailto:navratil@amup.cz">navratil@amup.cz</a></p>
+<p><a href="ochrana-osobnich-udaju.html">Ochrana osobních údajů</a></p>
+</div>
+</div>
+<div class="wrap footer-bottom">© <span data-year>2026</span> AmUp, s.r.o.</div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
